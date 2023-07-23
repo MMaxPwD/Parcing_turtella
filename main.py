@@ -100,7 +100,6 @@ def collect_data_numb():
         for i in range(12): #число нужно для того чтобы заполнять пустые строки при сохранении в файл
             pricelist.append(
                 {
-                    "Город": city,
                     "Говядина": beef,
                     "Картофель": potato,
                     "Пиво": beer,
